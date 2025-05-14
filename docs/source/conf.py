@@ -3,7 +3,7 @@
 # -- Project information
 
 project = 'Don Clusterio'
-copyright = '2021, L. Concha, L. González'
+copyright = '2025, L. Concha, L. González'
 author = 'L. Concha, L. González'
 
 release = '0.1'
@@ -27,6 +27,10 @@ intersphinx_disabled_domains = ['std']
 
 templates_path = ['_templates']
 html_static_path = ['_static']
+
+html_css_files = [
+    'css/my-styles.css',
+]
 
 # -- Options for HTML output
 
